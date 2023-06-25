@@ -18,12 +18,3 @@ Rularea aplicatiei mobile pe un telefon fizic :
 5. Se conectează telefonul prin cablu direct la laptop/pc
 6. În Device Manager se observă telefonul ca și dispozitiv activ
 7. Se apasă iconița "Run" app iar aplicația va porni pe dispozitivul fizic
-
-
-
-
-Se conecteaza telefonul la laptop
-Din Setari dezvoltator din telefon se bifeaza USB debugging
-In device manager la physical va aparea noul dispozitiv
-Se apasa run "app" sau se apasa Shift+F10
-Aplicatia va fi rulata pe dispozitivul fizic
