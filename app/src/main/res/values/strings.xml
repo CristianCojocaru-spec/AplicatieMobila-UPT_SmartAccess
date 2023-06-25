@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">LicentaV4</string>
+    <string name="service_description">idk</string>
+    <string name="appdu_description">idk2</string>
+    <string name="appdu_description2">idk3</string>
+
+    <string-array name="valid_dorms">
+
+        <item>1C</item>
+        <item>2C</item>
+        <item>4C</item>
+        <item>7C</item>
+        <item>8C</item>
+        <item>9C</item>
+        <item>11C</item>
+        <item>14C</item>
+        <item>19C</item>
+        <item>20C</item>
+        <item>21C</item>
+        <item>22C</item>
+        <item>1MV</item>
+        <item>2MV</item>
+        <item>23G</item>
+        <item>25G</item>
+    </string-array>
+
+
+    <string-array name="colleges">
+
+
+        <item>AUTOMATION AND COMPUTERS</item>
+        <item>ARCHITECTURE AND URBANISM</item>
+        <item>INDUSTRIAL CHEMISTRY, ENV ENGINEERING</item>
+        <item>CONSTRUCTION</item>
+        <item>ELECTRICAL AND ENERGY ENGINEERING</item>
+        <item>COMMUNICATION SCIENCE</item>
+        <item>HUNEDOARA ENGINEERING</item>
+        <item>MECHANICS</item>
+        <item>PRODUCTION AND TRANSPORT MANAGEMENT</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminPage">
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:translationY="80dp"></ListView>
+
+    <Button
+        android:id="@+id/logout_btn_admin"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:background="@drawable/baseline_logout_24"
+        android:onClick="LogOut"
+        android:translationX="185dp"
+        android:translationY="710dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+
+   <!-- <Button
+        android:id="@+id/refresh_btn"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:background="@drawable/baseline_refresh_24"
+        android:onClick="LogOut"
+        android:translationX="120dp"
+        android:translationY="710dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />-->
+
+    <Button
+        android:id="@+id/button_get_count"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+
+        android:background="@drawable/rounded_edit_text"
+        android:backgroundTint="#0E86D4"
+        android:text="Todays Total"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:translationX="120dp"
+        android:translationY="570dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <TextView
+        android:id="@+id/unlocks_per_day"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:translationX="55dp"
+        android:translationY="640dp" />
+
+    <Button
+        android:id="@+id/button_back_to_scan_page"
+        android:layout_width="49dp"
+        android:layout_height="44dp"
+        android:background="@drawable/baseline_arrow_circle_left_24"
+        android:translationX="10dp"
+        android:translationY="10dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+</RelativeLayout>
